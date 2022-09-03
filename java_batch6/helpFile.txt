@@ -1,0 +1,43 @@
+git clone repourl // it will get the project from remote to local machine
+
+//navigate to inside the project
+
+.git // this is the git repo
+
+git branch // main branch
+
+git branch -b "create_user"
+
+// add new code or update the existing code
+//10 files and u updated 2 existing files 
+
+git add file
+
+git add file
+
+//if you want to push all the changes in your local machine
+git add *.*
+
+
+git commit -m "added new files for create new users, updated error mwessaages in the exiting files"
+
+git pusu origin "create_user" //authentication
+
+
+git config --global config.username "sasi"
+git config --global config.email "sasi@virtusa.com"
+
+git push origin "create_user"
+
+create PR 
+
+merge
+
+// local change the branch
+
+git branch //all the branches will display
+
+git checkout main 
+
+git pull
+
